@@ -1,3 +1,5 @@
+import { Locator } from "@playwright/test"
+
 export class PayUI{
         static CODE_INPUT = (page) => page.frameLocator("//iframe[@id='iframe-facturador' or @id='iframe-nofacturador']").locator("//div[@class='billers__body-form'][1]//apc-input/input")
         static CONFIRM_CODE_INPUT = (page) => page.frameLocator("//iframe[@id='iframe-facturador' or @id='iframe-nofacturador']").locator("//apc-input/input[contains(@id, 'onfirmar')]")

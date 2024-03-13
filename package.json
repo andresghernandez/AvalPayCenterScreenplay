@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "facturador": "npx playwright test paycenterfacturador.spec.ts",
+    "nofacturador": "npx playwright test paycenternofacturador.spec.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

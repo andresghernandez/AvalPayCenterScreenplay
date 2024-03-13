@@ -1,4 +1,5 @@
-export class PaymentDetaisUI{ 
+
+export class PaymentDetailsUI{ 
     
     static DOCUMENT_TYPE_SELECT = (page) => page.locator("//select[@name='documentTypeHolder']")
     static DOCUMENT_NUMBER_INPUT = (page) => page.locator("//input[@name='documentNumberHolder']")

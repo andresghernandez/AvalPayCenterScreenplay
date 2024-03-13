@@ -4,10 +4,8 @@ import { Click, Fill, Navigate, Press } from "@testla/screenplay-playwright/web"
 
 export class OpenPage extends Task {
 
-    performAs(actor: Actor): Promise<any> {
-        return actor.attemptsTo(
-            Navigate.to(actor.states('url'))
-        );
+    async performAs(actor: Actor): Promise<any> {
+       actor.attemptsTo(Navigate.to(actor.states('url')));
     }
 
     public static avalPayCenter(): OpenPage {
