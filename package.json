@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "facturador": "npx playwright test paycenterfacturador.spec.ts",
-    "nofacturador": "npx playwright test paycenternofacturador.spec.ts"
+    "nofacturador": "npx playwright test paycenternofacturador.spec.ts",
+    "servicios": "npx playwright test services.spec.ts"
   },
   "keywords": [],
   "author": "",
